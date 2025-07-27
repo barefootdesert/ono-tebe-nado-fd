@@ -1,0 +1,356 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 183px;
+}
+
+.content-section {
+  width: 100%;
+}
+
+/* ГОЛОВА */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 51px 80px;
+}
+
+.header_menu {
+    display: flex;
+    justify-self: center;
+    list-style-position: inside;
+    gap: 32px;
+}
+
+.header_menu-item-first {
+    list-style-type: none;
+}
+
+.header_menu-item {
+    list-style-type: circle;
+    text-underline-offset: 3px;
+}
+
+.header__link {
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.header_links-list {
+    display: flex;
+    position: relative;
+    margin: left;
+    width: 391px;
+    height: 22px;
+    list-style-type: circle;
+    font-weight: 400;
+    font-size: 18px;
+    gap: 32px;
+}
+
+.header__link-active {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0;
+}
+
+.header_links-list-item {
+    list-style: circle;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header_logo-image {
+    display: block;
+    width: 148px;
+    height: 105px;
+    opacity: 100;
+    position: relative;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 240px;
+    font-style: normal;
+    line-height: 24.3px;
+    justify-self: center;
+    justify-items: stretch;
+    font-style: normal;
+}
+
+/* ОБЛОЖКА */
+
+.cover {
+  position: relative;
+  padding: 165px 50px 50px 50px;
+  background-image: url(../images/lotus-flower.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6000000238418579;
+  background-color: #000000;
+}
+
+.cover_title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    z-index: 1;
+    padding: 165px 50px 207px;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  line-height: 1;
+  text-align: center;
+}
+
+.aligned-text_right {
+  line-height: 1;
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+}
+
+.cover__description-text {
+  color: #FFF;
+  font-size: 25px;
+  line-height: 1.27;
+  text-transform: uppercase;
+  word-spacing: 18px;
+  margin-right: 60px;
+}
+
+.bet-button {
+  border: 1px #FFF solid;
+  padding: 14px 32px;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bet-button:hover {
+  color: #000000;
+  background-color: #FFF;
+}
+
+/* ЛОТЫ */
+
+.lots {
+  padding: 0 50px;
+}
+
+.lots__heading {
+  padding: 0 0 30px 40px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+  list-style: none;
+}
+
+.lost__card-list-item {
+  height: 100%;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  width: 520px;
+  height: 596px;
+  padding: 50px 40px;
+  z-index: -1;
+}
+
+.card_type_film {
+  background-image: url(../images/anderson.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_type_book {
+  background-image: url(../images/joyce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_type_picture {
+  background-image: url(../images/kandinsky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__title {
+  position: relative;
+  z-index: 1;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card__text {
+  position: relative;
+  z-index: 1;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.lots__look-more-link {
+  display: block;
+  margin: 30px 0 0 40px;
+  font-size: 20px;
+  text-decoration-line: underline;
+  text-underline-position: under;
+  width: fit-content;
+}
+
+/* ОБ АУКЦИОНЕ */
+
+.about {
+  display: grid;
+  grid-template-columns: 287px 740px;
+  column-gap: 24px;
+  padding: 120px;
+}
+
+.about__column {
+  justify-content: space-evenly;
+  justify-items: stretch;
+  justify-self: center;
+}
+
+.about__column_text {
+  grid-column: 2/4;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__title {
+  padding: 100px 0 104px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  width: 693px;
+  height: 312px;
+  gap: 25px;
+
+}
+
+.about__text p {
+  font-size: 20px;
+  line-height: normal;
+}
+
+/* FOOTER (ПОДВАЛ) */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 180px 50px 80px;
+}
+
+.footer_menu {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style-position: inside;
+  gap: 32px
+}
+
+.footer_menu-list {
+  list-style: none;
+}
+
+.footer__social-list {
+  list-style: none;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+.footer__social-list-item {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
