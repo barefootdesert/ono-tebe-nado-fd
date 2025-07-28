@@ -13,31 +13,32 @@
   <header class="header">
     <nav class="header_menu">
         <ul class="header_links-list">
-          <li class="header_links-list-item header__links-list-item_no-bullit">главная</li>
-          <li class="header_links-list-item">посмотреть лоты</li>
-          <li class="header_links-list-item">об аукционе</li>
+          <li class="header_links-list-item header__links-list-item_no-bullit"><a href="#" class="header__link-active">главная</a></li>
+          <li class="header_links-list-item"><a href="#">посмотреть лоты</a></li>
+          <li class="header_links-list-item"><a href="#">об аукционе</a></li>
         </ul>
     </nav>
     <div class="header-logo">
       <a href="#" class="header_logo-image">
-        <img src="./images/logo.svg">
+        <img src="./images/logo.svg" alt="Оно Тебе Надо">
       </a>
     </div>
     <address class="address">
-       <p><a href="tel:+99995555555" class="address_item">+9 999 555 5555</a></p> 
-        <p><a href="mailto:info@sobaka.ge" class="address_item">info@sobaka.ge</a></p>
-        <p><a href="" class="address_text">наб. Принсенграхт 263-<br>
-          265, Амстердам</a></p>
+       <a href="tel:+99995555555" class="address_item">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address_item">info@sobaka.ge</a>
+        <a href="" class="address_text">наб. Принсенграхт 263-<br>
+          265, Амстердам</a>
     </address>
   </header>
   <main>
      <section class="cover content-section">
         <div class="overlay"></div>
         <h1 class="cover_title">
-          <span class="aligned-text">
-          <span class="letter-spacing-extended">оно</span></span>
-          <span class="aligned-text aligned-text_center"><span class="letter-spacing-extended">тебе</span>
-          <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">надо</span>
+          <div class="aligned-text">
+            <div class="letter-spacing-extended">оно</div>
+            <div class="aligned-text aligned-text_center letter-spacing-extended">тебе</div>
+            <div class="aligned-text aligned-text_right letter-spacing-extended">надо</div>
+        </div>
         </h1>
         <span class="cover__description">
           <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
@@ -45,7 +46,7 @@
         </span>
     </section>
     <section class="lots">
-       <section class="lots content-section">
+      <section class="lots content-section">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lost__card-list-item">
@@ -99,7 +100,7 @@
           </li>
         </ul>
         <a class="lots__look-more-link text-link" href="#0">посмотреть больше</a>
-    </section>
+    </section>     
     <section class="about">
       <section class="about content-section">
         <div class="about__column">
@@ -137,9 +138,9 @@
   </main>
   <footer>
     <address class="address">
-      <p><a class="address_item text-link" href="tel:+99995555555">+9 999 555 5555</a></p>
-      <p><a class="address_item text-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
-      <p>наб. Принсенграхт 263-265, Амстердам</p>
+      <a class="address_item text-link footer_link-active" href="tel:+99995555555">+9 999 555 5555</a>
+      <a class="address_item text-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <a class="address_item text-link">наб. Принсенграхт 263-265, Амстердам</a>
     </address>
     <nav class="footer_menu">
       <ul class="footer_menu-list">
@@ -161,8 +162,8 @@
               class="footer__social-icon"
               src="images/youtube.svg"
               alt="Логотип Youtube"
-              width="26px"
-              height="21px"
+              width="26"
+              height="21"
             />
           </a>
         </li>
@@ -172,8 +173,8 @@
               class="footer__social-icon"
               src="images/vk.svg"
               alt="Логотип Вконтакте"
-              width="29.12px"
-              height="19px"
+              width="29.12"
+              height="19"
             />
           </a>
         </li>
@@ -183,8 +184,8 @@
               class="footer__social-icon"
               src="images/pinterest.svg"
               alt="Логотип Pinterest"
-              width="17px"
-              height="23px"
+              width="17"
+              height="23"
             />
           </a>
         </li>

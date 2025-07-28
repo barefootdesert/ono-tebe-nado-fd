@@ -331,6 +331,12 @@ footer {
   gap: 32px
 }
 
+.footer_menu-link-active {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0;
+}
+
 .footer_menu-list {
   list-style: none;
 }
