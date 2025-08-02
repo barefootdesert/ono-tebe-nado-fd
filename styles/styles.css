@@ -23,6 +23,7 @@ header {
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding: 92px 51px 80px;
+    text-underline-offset: 5px;
 }
 
 .header_menu {
@@ -38,7 +39,6 @@ header {
 
 .header_menu-item {
     list-style-type: circle;
-    text-underline-offset: 3px;
 }
 
 .header__link {
@@ -55,6 +55,7 @@ header {
     font-weight: 400;
     font-size: 18px;
     gap: 32px;
+    text-underline-offset: 3px;
 }
 
 .header__link-active {
@@ -175,6 +176,7 @@ header {
   z-index: 1;
   display: flex;
   padding: 106px 50px 50px 50px;
+  align-items: center;
 }
 
 .cover_description-text {
@@ -351,6 +353,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-bottom: 82px;
+  text-underline-offset: 5px;
 }
 
 .footer_menu {
@@ -388,5 +391,6 @@ footer {
   border-radius: 50%;
   border: 1px solid black;
   justify-content: center;
+  align-content: center;
   align-items: center;
 }
