@@ -68,12 +68,22 @@ header {
   text-decoration: none;
 }
 
+.header_logo {
+  display: flex;
+  justify-content: center;
+}
+
 .header_logo-image {
   display: block;
   width: 148px;
   height: 105px;
   opacity: 100;
   position: relative;
+}
+
+.header .address {
+  margin-top: 5px;
+  margin-left: 35px;
 }
 
 .address {
