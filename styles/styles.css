@@ -7,16 +7,15 @@ main {
   width: 100%;
 }
 
-/* ГОЛОВА */
+/* Ð“ÐžÐ›ÐžÐ’Ð */
 
 header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   width: 100%;
-  height: 293px;
   justify-content: space-between;
   align-content: start;
-  padding: 92px 51px 80px;
+  padding: 92px 51px 96px;
   text-underline-offset: 5px;
 }
 
@@ -68,11 +67,6 @@ header {
   text-decoration: none;
 }
 
-.header_logo {
-  display: flex;
-  justify-content: center;
-}
-
 .header_logo-image {
   display: block;
   width: 148px;
@@ -82,8 +76,7 @@ header {
 }
 
 .header .address {
-  margin-top: 5px;
-  margin-left: 35px;
+  margin-left: 184px;
 }
 
 .address {
@@ -94,13 +87,10 @@ header {
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
-  justify-items: center;
-  justify-self: end;
-  margin-right: 50px;
   margin-top: 3px;
 }
 
-/* ОБЛОЖКА */
+/* ÐžÐ‘Ð›ÐžÐ–ÐšÐ */
 
 .cover {
   position: relative;
@@ -209,7 +199,7 @@ header {
   background-color: #FFF;
 }
 
-/* ЛОТЫ */
+/* Ð›ÐžÐ¢Ð« */
 
 .lots {
   padding: 180px 24px 0px 24px;
@@ -231,11 +221,6 @@ header {
 }
 
 .lots__card-list-item {
-  height: 100%;
-}
-
-.card-link {
-  display: block;
   height: 100%;
 }
 
@@ -293,7 +278,7 @@ header {
   width: fit-content;
 }
 
-/* ОБ АУКЦИОНЕ */
+/* ÐžÐ‘ ÐÐ£ÐšÐ¦Ð˜ÐžÐÐ• */
 
 .about {
   display: grid;
@@ -348,7 +333,7 @@ header {
   line-height: normal;
 }
 
-/* FOOTER (ПОДВАЛ) */
+/* FOOTER (ÐŸÐžÐ”Ð’ÐÐ›) */
 
 .footer {
   display: grid;
@@ -361,7 +346,7 @@ header {
 .footer_menu {
   display: flex;
   text-align: center;
-  justify-content: flex-start;
+  justify-content: center;
   list-style-position: inside;
   gap: 32px;
   align-self: start;
@@ -386,41 +371,44 @@ header {
   display: flex;
   gap: 48px;
   list-style: none;
+  line-height: 48px;
 }
 
 .footer__social-list-item {
   display: flex;
   width: 48px;
-  height: 48px;
   border-radius: 50%;
   border: 1px solid black;
   justify-content: center;
   align-items: center;
 }
 
-/* ... весь предыдущий CSS ... */
-
-/* ДОБАВЛЕННЫЕ ПРАВКИ */
-
-.header_logo {
-  display: flex;
-  justify-content: center;
-}
-
 .footer .address {
   max-width: 240px;
-  font-style: normal;
   line-height: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding-bottom: 82px;
 }
 
 .footer_menu-link {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .footer_menu-link-active {
   text-decoration: none;
+}
+
+.footer__icon-yt {
+  width: 26px;
+  height: 20px;
+}
+
+.footer__icon-vk {
+  width: 29.12px;
+  height: 18px;
+}
+
+.footer__icon-pin {
+  width: 17px;
+  height: 22px;
 }
