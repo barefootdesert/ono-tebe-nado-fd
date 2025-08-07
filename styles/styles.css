@@ -338,7 +338,7 @@ header {
 .footer {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: 10px 50px 88px;
+  padding: 0px 50px 88px;
   gap: 140px;
   align-items: flex-start;
 }
