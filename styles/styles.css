@@ -267,15 +267,16 @@ header {
   color: #FFF;
   font-size: 20px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
-.lots__look-more-link {
-  display: block;
-  margin: 30px 0 0 40px;
-  font-size: 20px;
-  text-decoration-line: underline;
-  text-underline-position: under;
-  width: fit-content;
+.lots__look-more-link { 
+  display: block; 
+  margin: 30px 0 0 40px; 
+  font-size: 20px; 
+  text-decoration-line: underline; 
+  text-underline-position: under; 
+  width: fit-content; 
 }
 
 /* ОБ АУКЦИОНЕ */
@@ -324,6 +325,7 @@ header {
 .about__text {
   display: flex;
   flex-direction: column;
+  row-gap: 24px;
   width: 693px;
   gap: 25px;
 }
