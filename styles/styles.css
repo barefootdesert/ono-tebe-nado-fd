@@ -19,7 +19,7 @@ header {
   text-underline-offset: 5px;
 }
 
-.header_menu {
+.header__menu {
   display: flex;
   list-style-position: inside;
   gap: 13px;
@@ -28,7 +28,7 @@ header {
   align-items: center;
 }
 
-.header_menu-item {
+.header__menu-item {
   list-style-type: circle;
 }
 
@@ -121,7 +121,6 @@ header {
   flex-direction: column;
   color: #fff;
   font-size: 100px;
-  font-weight: 700;
   font-weight: bold;
   line-height: 1.15;
   letter-spacing: 30%;
@@ -292,7 +291,7 @@ header {
   justify-self: center;
 }
 
-.about__column_text {
+.about__column-text {
   display: flex;
   flex-direction: column;
 }
