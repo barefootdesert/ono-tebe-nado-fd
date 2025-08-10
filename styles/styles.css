@@ -123,7 +123,7 @@ header {
   font-size: 100px;
   font-weight: bold;
   line-height: 1.15;
-  letter-spacing: 30%;
+  letter-spacing: 0.3em;
   margin: 165px 50px 106px 50px;
 }
 
@@ -326,7 +326,7 @@ header {
   flex-direction: column;
   row-gap: 24px;
   width: 693px;
-  gap: 25px;
+  gap: 24px;
 }
 
 .about__text p {
