@@ -288,7 +288,7 @@ header {
 }
 
 .about__column {
-  justify-self: center;
+  justify-self: start;
 }
 
 .about__column-text {
@@ -325,8 +325,8 @@ header {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  width: 693px;
-  gap: 25px;
+  width: 690px;
+  gap: 32px;
 }
 
 .about__text p {
